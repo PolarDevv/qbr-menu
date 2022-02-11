@@ -7,6 +7,10 @@ This is also modified version of **[QB Menu](https://github.com/qbcore-framework
 
 Original Repository **[QB Menu](https://github.com/qbcore-framework/qb-menu)**
 
+Preview :
+
+<img alt="Preview" height = "500" src="https://cdn.discordapp.com/attachments/898298633101918278/941789278260834374/unknown.png">
+
 
 --[[
 EXAMPLE MENU
