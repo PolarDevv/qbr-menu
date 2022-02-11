@@ -1,0 +1,102 @@
+/* Nice font for button from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Rye);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Rye", sans-serif !important;
+    font-weight: 500;
+}
+
+#container {
+    position: absolute;
+    height: auto;
+    top: 20%;
+    right: 20%;
+    border-radius: 5px;
+    background: transparent !important;
+}
+
+#buttons {
+    max-height: 75vh;
+    width: 31vw;
+    overflow-x: none;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+html,
+body {
+    background: transparent !important;
+}
+
+#buttons::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.button {
+    width: auto;
+    max-width: 45%;
+    height: 10%;
+    background: #660303;
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    padding: 0.45rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #420303;
+}
+
+.title {
+    width: auto;
+    max-width: 45%;
+    height: 10%;
+    background: #3a0101;
+    background-image: url(./img/titlebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    padding: 0.45rem;
+    display: flex;
+    flex-direction: column;
+}
+
+div > .text {
+    flex-direction: column;
+    font-size: 0.75rem;
+    overflow: hidden;
+}
+
+div > .header {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: left;
+    overflow: wrap;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    overflow: hidden;
+}
