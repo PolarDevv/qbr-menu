@@ -104,7 +104,7 @@ RegisterCommand("qbrmenutest", function(source, args, raw)
             header = "Sub Menu Button",
             txt = "This goes to a sub menu",
             params = {
-                event = "qb-menu:client:testMenu2",
+                event = "qbr-menu:client:testMenu2",
                 args = {
                     number = 1,
                 }
